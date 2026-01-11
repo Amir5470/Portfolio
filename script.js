@@ -1,8 +1,8 @@
-const sunFrame = "/images/day-light.png";
-const moonFrame = "/images/night-dark.png";
+const sunFrame = "https://amir5470.github.io/Portfolio/images/day-light.png";
+const moonFrame = "https://amir5470.github.io/Portfolio/images/night-dark.png";
 
-const forwardGIF = "/images/suntomoon.gif";
-const reverseGIF = "/images/moontosun.gif";
+const forwardGIF = "https://amir5470.github.io/Portfolio/images/suntomoon.gif";
+const reverseGIF = "https://amir5470.github.io/Portfolio/images/moontosun.gif";
 
 const icon = document.getElementById("themeIcon");
 const toggle = document.getElementById("themeToggle");
