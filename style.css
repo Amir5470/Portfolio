@@ -71,7 +71,7 @@ header {
     text-align: left;
 }
 
-#line {
+.line {
     border-bottom: 2px solid #333;
     margin: 10px 0;
 }
@@ -390,4 +390,12 @@ footer {
 .light-card,
 .dark-card {
     transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
 }

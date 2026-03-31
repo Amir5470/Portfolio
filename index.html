@@ -23,31 +23,35 @@
             </div>
         </nav>
         <button id="themeToggle">
-            <img id="themeIcon" src="/images/day-light.png"
-                alt="Theme Icon">
+            <img id="themeIcon" src="./images/day-light.png"
+                alt="Toggle light/dark theme">
         </button>
     </header>
     <main>
         <section id="about-me">
             <h2>About Me</h2>
             <p id="main-text" class="cssanimation ca__fx-fadeInBottom light-txt">Web<br>Developer</p>
-            <p id="sub-text" style="font-size: 14px; display: flex; justify-self: center;">Student Developer • Web &
+            <p id="sub-text" style="font-size: 14px; display: flex; justify-self: center;">Junior Developer who builds real apps • Web &
                 Desktop Apps • Engineering Pathway</p>
         </section>
-        <div id="line"></div>
+        <div class="line"></div>
         <section id="projects">
             <h2>Projects</h2>
             <div class="project-cards">
                 <div id="project-1" class="light-card">
                     <div class="live">Live</div>
-                    <h3>Venture</h3>
+                     <div class="card-header">
+                        <h3>Venture</h3>
+                        <img src="https://venture-chat.web.app/resources/V-BGremoved.png" width="40px" height="40px" alt="Venture Logo">
+                     </div>
+                    
                     <p>Real-time web chat application with user authentication, live messaging, and responsive UI. Built
                         to understand real-time data flow, state management, and deployment.</p>
                     <div>
                         <h5 style="font-size: 14px;">Technologies:</h5>
                         <p>JavaScript</p>
                         <p>Frontend Framework</p>
-                        <p>Firebase <span style="font-size: 10px;">(Auth, Firestore, Hosting)</span></p>
+                        <p>Firebase <span style="font-size: 11px;">(Auth, Firestore, Hosting)</span></p>
                     </div>
                     <div class="visitwrapper">
                     <a href="https://venture-chat.web.app" target="_blank"><button id="visit-1">Visit</button></a>
@@ -58,7 +62,10 @@
 
                 <div id="project-2" class="light-card">
                     <div class="notlive">!Live</div>
-                    <h3>Sair</h3>
+                    <div class="card-header">
+                        <h3>Sair</h3>
+                        <img src="https://raw.githubusercontent.com/Amir5470/Sair/refs/heads/main/images/sairtransparent.png" width="40px" height="40px" alt="Sair Logo">
+                    </div>
                     <p>Lightweight desktop web browser built with Electron to explore desktop app architecture, window
                         management, and web rendering outside the browser.</p>
                     <div>
@@ -74,7 +81,10 @@
 
                 <div id="project-3" class="light-card">
                     <div class="live">Live</div>
-                    <h3>Sports & Clubs Page</h3>
+                    <div class="card-header">
+                        <h3>Worthington Extracurriculars</h3>
+                        <img src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1712256551/worthingtonk12ohus/s4pjlh8a02w8qdh0eszu/W-Worthington_Final2022_RGB.png" width="55px" height="40px" alt="Worthington Logo">
+                    </div>
                     <p>Designed and structured an extracurricular activities page for a high school, focusing on clear
                         navigation, accessibility, and easy discovery of sports and clubs.</p>
                     <div>
@@ -92,25 +102,30 @@
             </div>
             <div class="project-cards">
                 <div id="project-4" class="light-card">
-                    <div class="live">Live</div>
-                    <h3>High School Courses Lookup</h3>
-                    <p>A searchable course catalog for Worthington Schools high schools, enabling students to quickly find class thorugh an interface with a clean UI and easy-to-use filters.</p>
+                    <div class="notlive">!Live</div>
+                    <div class="card-header">
+                        <h3>Sera</h3>
+                        <img src="https://github.com/Amir5470/Sera/blob/master/assets/images/Sera-Logo-Transparent-Btext.png?raw=true" width="40px" height="40px" alt="Sera Logo">
+                    </div>
+                    <p>Sera is a student-led mobile app that connects an entire school in one place - your classes, events, and people. Built with React Native + Firebase, designed for students by students.</p>
                     <div>
                         <h5 style="font-size: 14px;">Technologies:</h5>
-                        <p>JavaScript</p>
-                        <p>Frontend Framework</p>
-                        <p>Google API's</p>
+                        <p>React</p>
+                        <p>Expo</p>
+                        <p>Claude API</p>
                     </div>
                     <div class="visitwrapper">
-                    <a href="https://johnklewissscell.github.io/Worthington-HS-Courses/" target="_blank"><button
-                            id="visit-4">Visit</button></a>
-                            <a href="https://github.com/johnklewissscell/Worthington-HS-Courses" target="_blank"><button id="code-4">Source</button></a>
-                            </div>
+                    <a href="https://github.com/Amir5470/Sera" target="_blank"><button id="visit-4">Visit | Source</button></a>
+                    </div>
                 </div>
 
                 <div id="project-5" class="light-card">
                     <div class="live">Live</div>
-                    <h3>Yahtzee Online Game</h3>
+                    <div class="card-header">
+                       <h3>Yahtzee Online Game</h3>
+                        <img src="https://github.com/johnklewissscell/Yahtzee-Dice-Game/blob/main/public/images/dice-logo.png?raw=true" width="40px" height="40px" alt="Yahtzee Logo">
+                    </div>
+                 
                     <p>An online version of Yahtzee featuring multiplayer lobbies, user login, and real-time gameplay sync, demonstrating game hosting and interactive webapp logic.</p>
                     <div>
                         <h5 style="font-size: 14px;">Technologies:</h5>
@@ -132,6 +147,7 @@
                     <!-- First loop -->
                     <a href="https://www.javascript.com" target="_blank">
                         <img class="tech-logo"
+                            style=" border-radius: 6px;"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                             alt="JavaScript Logo">
                     </a>
@@ -170,13 +186,23 @@
                             src="https://pipedream.com/s.v0/app_mvNhoj/logo/orig"
                             alt="Google Cloud Logo">
                     </a>
+                    <a href="https://www.mongodb.com" target="_blank">
+                        <img class="tech-logo"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                            alt="MongoDB Logo">
+                    </a>
+                    <a href="https://www.expo.dev" target="_blank">
+                        <img class="tech-logo"
+                            src="https://img.icons8.com/androidL/512/FFFFFF/expo.png"
+                            alt="Expo Logo">
+                    </a>
 
                 </div>
 
             </div>
 
         </section>
-        <div id="line"></div>
+        <div class="line"></div>
         <section id="contact">
             <div id="contact-info">
                 <h3>Lets connect</h3>
