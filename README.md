@@ -8,7 +8,7 @@ A clean portfolio showcasing engineering work, UI, and front‑end work. Built w
 A professional space to present projects, growth, and engineering identity.
 
 ## Features
-- Showcase of the 3 most influential projects.
+- Showcase of the 5 most influential projects.
 - Animated theme toggle with forward and reverse transitions  
 - Modular, scalable codebase  
 - Fully responsive layout
